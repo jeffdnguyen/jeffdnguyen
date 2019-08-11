@@ -1,0 +1,90 @@
+// Tablets & Smaller
+@media(max-width: 800px) {
+  #header-home {
+    height: 30rem;
+
+    .header-content {
+      padding-top: 5rem;
+    }
+  }
+}
+
+// Smartphones
+@media(max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      padding: 1rem;
+    }
+  }
+
+  #header {
+    &-home {
+      margin-bottom: 10rem;
+    }
+  }
+
+  #home {
+    &-a {
+      .specials {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .fab,
+      .fas {
+        padding: 10px;
+      }
+    }
+  }
+
+  #contact {
+    &-a {
+      .footer-title {
+        span {
+          font-size: 1rem;
+          color: $main-color;
+        }
+      }
+    }
+  }
+
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio'
+        'hobby1'
+        'hobby2'
+        'hobby3'
+        'q1';
+      }
+    }
+  }
+
+  #work {
+    &-a {
+      .work-info {
+        grid-template-areas: 
+        'work1'
+        'sum1'
+        'work2'
+        'sum2';
+      }
+      .work1, .work2 {
+        margin: auto;
+      }
+    }
+    &-b {
+      .project-info {
+        grid-template-areas: 
+        'proj1'
+        'psum1';
+      }
+      .proj1 {
+        margin: auto;
+      }
+    }
+  }
+}

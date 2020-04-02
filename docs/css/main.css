@@ -99,7 +99,7 @@ input[class^='btn-']:hover {
   padding: 0; }
 
 body {
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   line-height: 1.6;
   background: #ffffff; }
 
@@ -109,7 +109,9 @@ a {
 ul {
   list-style: none; }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   color: #5d5d5d;
   text-transform: uppercase; }
 
@@ -155,7 +157,7 @@ img {
       line-height: 1.2; }
 
 #header-home::before {
-  content: '';
+  content: "";
   filter: grayscale(100%); }
 
 #header-inner {
@@ -182,7 +184,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio' 'hobby1 hobby2 hobby3' 'q1 q1 q1';
+  grid-template-areas: "bioimage bio bio" "hobby1 hobby2 hobby3" "q1 q1 q1";
   grid-gap: 1.2rem;
   color: #5d5d5d; }
 
@@ -219,7 +221,7 @@ img {
 
 #work-a .work-info {
   display: grid;
-  grid-template-areas: 'work1 sum1 sum1' 'work2 sum2 sum2';
+  grid-template-areas: "work1 sum1 sum1" "work2 sum2 sum2";
   grid-gap: 1.2rem;
   color: #5d5d5d; }
 
@@ -245,7 +247,7 @@ img {
 
 #work-b .project-info {
   display: grid;
-  grid-template-areas: 'proj1 psum1 psum1';
+  grid-template-areas: "proj1 psum1 psum1" "proj2 psum2 psum2";
   grid-gap: 1.2rem;
   color: #5d5d5d; }
 
@@ -256,6 +258,16 @@ img {
 
 #work-b .psum1 {
   grid-area: psum1;
+  border-left: 3px solid #49F66D;
+  padding: 0.8rem; }
+
+#work-b .proj2 {
+  grid-area: proj2;
+  max-width: 300px;
+  height: auto; }
+
+#work-b .psum2 {
+  grid-area: psum2;
   border-left: 3px solid #49F66D;
   padding: 0.8rem; }
 

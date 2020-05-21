@@ -260,12 +260,12 @@ img {
   padding: 0.8rem; }
 
 #work-b .proj2 {
-  grid-area: proj1;
+  grid-area: proj2;
   max-width: 300px;
   height: auto; }
 
 #work-b .psum2 {
-  grid-area: psum1;
+  grid-area: psum2;
   border-left: 3px solid #EC2059;
   padding: 0.8rem; }
 

@@ -223,7 +223,8 @@ img {
     .project-info {
       display: grid;
       grid-template-areas: 
-      'proj1 psum1 psum1';
+      'proj1 psum1 psum1'
+      'proj2 psum2 psum2';
       grid-gap: 1.2rem; 
       color: $dark-color;
     }
@@ -235,6 +236,16 @@ img {
       height: auto;
     }
     .psum1 {
+      grid-area: psum1;
+      border-left: 3px solid $main-color;
+      padding: 0.8rem;
+    }
+    .proj2 {
+      grid-area: proj1;
+      max-width: 300px;
+      height: auto;
+    }
+    .psum2 {
       grid-area: psum1;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
